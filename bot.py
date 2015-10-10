@@ -7,7 +7,7 @@ import sys
 
 import apuestas_deportivas
 
-token = '132201904:AAF6VKUon7iiwnynWWexroE5gCPUtE--Yss' # TIPSTERBOT
+token = '########' # TIPSTERBOT
 offset = None
 
 
