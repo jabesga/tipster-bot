@@ -7,9 +7,14 @@ import sys
 
 import apuestas_deportivas
 
-token = '132201904:AAF6VKUon7iiwnynWWexroE5gCPUtE--Yss' # TIPSTERBOT
-offset = None
+from ConfigParser import SafeConfigParser
 
+parser = SafeConfigParser()
+parser.read('config.ini')
+
+token = parser.get('Config', 'token') # TIPSTERBOT
+
+offset = None
 
 def signal_handler(signal, frame):
     print('Bot stopped. Ctrl+C pressed!')
