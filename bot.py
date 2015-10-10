@@ -8,7 +8,7 @@ import apuestas_deportivas
 
 __version__ = '0.0.1'
 
-token = '########'  # TIPSTERBOT
+token = '######'  # TIPSTERBOT
 offset = None
 
 
